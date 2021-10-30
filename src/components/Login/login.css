@@ -1,0 +1,78 @@
+.loginform{
+    width: 350px;
+    border: 1px solid rgb(160, 158, 158);
+    background-color: white;
+    margin: 30px auto;
+}
+
+.heading{
+    font-style: italic;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    padding-left: 5px;
+    font-size: 13px;
+    margin: 3px 20px;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 158, 158);
+    outline: none;
+}
+
+.btn{
+    width: 300px;
+    margin: 15px 20px;
+    font-weight: 600;
+}
+
+.or{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+hr{
+    color: black;
+}
+.fb{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(26, 26, 117);
+    font-weight: 600;
+    text-align: center;
+    margin: 5px 0;
+}
+.fp{
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 12px;
+}
+.lowerPart{
+    width: 350px;
+    border: 1px solid rgb(160, 158, 158);
+    background-color: white;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.ac{
+    background-color: white;
+    letter-spacing: 0px;
+}
+.signup{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    font-weight: bold; 
+    margin-left: 6px;
+}
