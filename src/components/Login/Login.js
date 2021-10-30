@@ -1,5 +1,5 @@
 import React from 'react'
-import './login.css'
+import './login.css';
 import { Button } from "react-bootstrap";
 import { NavLink, Link } from "react-router-dom";
 
@@ -27,7 +27,6 @@ function Login() {
                     </NavLink>
                     
                 </div>
-
             </div>
         </>
     )

@@ -1,4 +1,4 @@
-.loginform{
+.signupform{
     width: 350px;
     border: 1px solid rgb(160, 158, 158);
     background-color: white;
@@ -13,7 +13,7 @@
     font-size: 30px;
     background-color: white;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 }
 
 input{
@@ -70,10 +70,24 @@ hr{
     background-color: white;
     letter-spacing: 0px;
 }
-.signup{
+.login{
     cursor: pointer;
     background-color: white;
     color: blue;
-    font-weight: bold; 
     margin-left: 6px;
+}
+.hbelow{
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    color:  rgb(160, 158, 158);
+    text-align: center;
+}
+.bsignup{
+    background-color: white;
+    font-size: 12px;
+    color:  rgb(160, 158, 158);
+    text-align: center;
+    margin: 10px 45px;
+    margin-bottom: 40px;
 }
