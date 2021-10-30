@@ -14,7 +14,7 @@ function Login() {
                     <Button className="btn">Log In</Button>
                     <div className="or">
                         <hr/>
-                        <span style={{backgroundColor: "white", fontWeight: 600}}>OR</span>
+                        <span style={{backgroundColor: "white", fontWeight: 600, marginTop:"3px"}}>OR</span>
                         <hr/>
                     </div>
                     <div className="fb">Log In With Facebook</div>

@@ -38,9 +38,14 @@ input{
     display: flex;
     justify-content: space-around;
     background-color: white;
+    align-content: center;
 }
 hr{
     color: black;
+    border: 1px solid rgb(95, 94, 94);
+    width: 110px;
+    opacity: 25%;
+
 }
 .fb{
     cursor: pointer;
