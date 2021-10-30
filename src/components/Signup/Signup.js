@@ -35,7 +35,7 @@ function Signup() {
         result = await result.json();
         console.log("result",result)
         localStorage.setItem("userData", JSON.stringify(result));
-        history.push("/")
+        history.push("/home")
     }
 
 
