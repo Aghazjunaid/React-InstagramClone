@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../helpers/Header/Header'
-import {Button, Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import './profile.css';
 import { NavLink, Link } from "react-router-dom";
 
@@ -37,6 +37,16 @@ function Profile() {
                         </div>
                     </div>
                     <hr/>
+                    <Row style={{marginTop:"20px"}}>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                    </Row>
+                    <Row style={{marginTop:"20px"}}>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                        <Col><Image className="postPic img-fluid" src={`${process.env.PUBLIC_URL}/assets/dpimage.jpg`} rounded /></Col>
+                    </Row>
                 </div>
                 
            </Container>
