@@ -1,0 +1,38 @@
+.profileTop{
+    display: flex;
+}
+.profileBody{
+    margin: 0 auto;
+    border: 1px red solid;
+    width: 70%
+}
+.profileEdit{
+    text-align: center;
+    margin: 12px;
+}
+.profileUsername{
+    font-size: 23px;
+}
+.profilePic{
+    width: 151px;
+    height: 162px;
+}
+.editbutn{
+    margin-top: 4px;
+    width: 100px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+@media (max-width:801px){
+    .profileBody{
+        margin: 0;
+    }
+    .editbutn{
+        width: 200px;
+        font-weight: 600;
+        border-radius: 4px;
+    }
+}
