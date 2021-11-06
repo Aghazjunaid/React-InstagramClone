@@ -23,7 +23,31 @@
     font-weight: 600;
     border-radius: 4px;
 }
-
+.followers{
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+.followers > div{
+    margin: 0 3px;
+}
+.bio{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 200px;
+}
+.ProfileName{
+    margin-top: 5px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+hr{
+    margin-top: 50px;
+    border: 1px#8e8e8e solid;
+    width: 100% 
+}
 
 
 @media (max-width:801px){
